@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +13,10 @@ import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
     LeftSideBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    FlexLayoutModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
