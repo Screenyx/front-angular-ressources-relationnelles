@@ -1,0 +1,10 @@
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.borderColor{
+    border-color: red;
+    background-color: aquamarine;
+
+}
