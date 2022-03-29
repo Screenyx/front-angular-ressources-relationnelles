@@ -10,6 +10,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {AvatarModule} from "primeng/avatar";
+import {BadgeModule} from "primeng/badge";
+import {InputTextModule} from "primeng/inputtext";
+
 
 
 @NgModule({
@@ -25,7 +28,8 @@ import {AvatarModule} from "primeng/avatar";
     MatIconModule,
     MatSidenavModule,
     AvatarModule,
-
+    BadgeModule,
+    InputTextModule,
 
   ],
   providers: [],

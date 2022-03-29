@@ -2,24 +2,39 @@
   <div class="nav-banner">
     <img src="./../../assets/images/logo1.png" alt="logo">
   </div>
-  <div class="nav-item">
-    <img src="./../../assets/images/page-daccueil.png" alt="">
-    <a>Accueil</a>
+  <div class="nav-search-bar">
+    <span class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input type="text" pInputText class="p-inputtext-sm" id="searchBar" placeholder="Search"/>
+    </span>
   </div>
-  <div class="nav-item">
-    <img src="./../../assets/images/utilisateur.png" alt="">
-    <a>Mon profil</a>
-  </div>
-  <div class="nav-item">
-    <img src="./../../assets/images/papier.png" alt="">
-    <a>Ressources</a>
-  </div>
-  <div class="nav-item">
-    <img src="./../../assets/images/parametres.png" alt="">
-    <a>Paramètres</a>
+  <div class="nav-item-container">
+    <div class="nav-item">
+      <img src="./../../assets/images/page-daccueil.png" alt="">
+      <a>Accueil</a>
+    </div>
+    <div class="nav-item">
+      <img src="./../../assets/images/utilisateur.png" alt="">
+      <a>Mon profil</a>
+    </div>
+    <div class="nav-item">
+      <img src="./../../assets/images/papier.png" alt="">
+      <a>Ressources</a>
+    </div>
+    <div class="nav-item">
+      <img src="./../../assets/images/parametres.png" alt="">
+      <a>Paramètres</a>
+    </div>
   </div>
   <div class="nav-footer">
     <p-avatar icon="pi pi-user" styleClass="mr-2" size="xlarge"></p-avatar>
+    <div class="nav-account-info">
+      <span style="font-weight: bold">Jules Durand</span>
+      <div class="nav-account-status">
+        <span id="status-connect"></span>
+        <span>Connecté</span>
+      </div>
+    </div>
   </div>
 </nav>
 
