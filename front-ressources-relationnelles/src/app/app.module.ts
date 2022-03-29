@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {AvatarModule} from "primeng/avatar";
 
 
 @NgModule({
@@ -22,8 +23,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     FlexLayoutModule,
     MatToolbarModule,
     MatIconModule,
-    MatSidenavModule
-    
+    MatSidenavModule,
+    AvatarModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
