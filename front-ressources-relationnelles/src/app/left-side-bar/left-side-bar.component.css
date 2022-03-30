@@ -1,10 +1,100 @@
 img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
-.borderColor{
-    border-color: red;
-    background-color: aquamarine;
+nav {
+  background-color: white;
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
 
 }
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 0 0 10px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.nav-item img {
+  margin: 0 5px;
+}
+
+.nav-banner {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 152, 158);
+}
+
+.nav-banner img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-footer {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.nav-account-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.nav-account-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+#status-connect {
+  background-color: limegreen;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 5px;
+
+}
+
+.nav-search-bar >span{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-search-bar i{
+  padding-left: 15px;
+}
+
+
+#searchBar{
+  border-color: rgb(3, 152, 158);
+  width: 85%;
+  border-width: 2px;
+  margin: 25px 0 15px 0;
+}
+
+a:link
+{
+  text-decoration:none;
+}
+
+
+
