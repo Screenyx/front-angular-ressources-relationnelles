@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4319e73a-fd97-49d0-8db0-66dbe67da0e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/.idea/front-angular-ressources-relationnelles.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.html" afterDir="false" />
     </list>
@@ -42,6 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="ts.external.directory.path" value="C:\Work\front-angular-ressources-relationnelles\front-ressources-relationnelles\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -53,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648570612835</updated>
-      <workItem from="1648570614042" duration="6881000" />
+      <workItem from="1648570614042" duration="7140000" />
+      <workItem from="1648626690893" duration="395000" />
     </task>
     <servers />
   </component>
