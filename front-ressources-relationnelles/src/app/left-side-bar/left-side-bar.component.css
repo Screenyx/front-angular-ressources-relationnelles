@@ -2,8 +2,11 @@ img {
   width: 30px;
   height: 30px;
 }
+nav{
+  height: 100%;
+}
 
-nav {
+#menu-container {
   background-color: white;
   height: 100%;
   width: 200px;
@@ -32,6 +35,16 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: rgb(3, 152, 158);
+  position: relative;
+}
+
+.nav-banner i{
+  color: white;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 1.5rem;
+  display: none;
 }
 
 .nav-banner img {
@@ -94,6 +107,36 @@ nav {
 a:link
 {
   text-decoration:none;
+}
+
+#menu-burger{
+  display:none;
+  background-color:rgb(3, 152, 158);
+  height: 100%;
+  width: 50px;
+  justify-content: center;
+
+
+
+}
+#menu-burger i{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+@media (max-width: 820px) {
+  #menu-container{
+    display: none;
+  }
+  #menu-burger{
+    display: flex;
+  }
+  .nav-banner i{
+    display: block;
+  }
 }
 
 
