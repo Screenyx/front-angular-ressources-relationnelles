@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4319e73a-fd97-49d0-8db0-66dbe67da0e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/left-side-bar/left-side-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-ressources-relationnelles/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,8 @@
       <workItem from="1648570614042" duration="7140000" />
       <workItem from="1648626690893" duration="395000" />
       <workItem from="1648732812431" duration="4562000" />
+      <workItem from="1648818625339" duration="10429000" />
+      <workItem from="1648915713613" duration="2359000" />
     </task>
     <servers />
   </component>

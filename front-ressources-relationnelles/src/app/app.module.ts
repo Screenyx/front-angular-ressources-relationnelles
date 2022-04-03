@@ -12,13 +12,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {AvatarModule} from "primeng/avatar";
 import {BadgeModule} from "primeng/badge";
 import {InputTextModule} from "primeng/inputtext";
+import { LoginFormComponent } from './login-form/login-form.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeftSideBarComponent
+    LeftSideBarComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
