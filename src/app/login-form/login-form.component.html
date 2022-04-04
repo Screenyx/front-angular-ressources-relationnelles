@@ -2,8 +2,11 @@
   <div id="LoginMenu">
     <div id="LoginHeader">
       <div id="LoginStyle">
-        <svg viewBox="0 0 588 414" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <path d="M0,0L588,0C588,0 473.202,260.167 294,250.451C114.798,240.735 78.978,319.671 0,414L0,0Z" style="fill:rgb(3,152,158);"/>
+        <svg viewBox="0 0 588 414" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+          style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <path d="M0,0L588,0C588,0 473.202,260.167 294,250.451C114.798,240.735 78.978,319.671 0,414L0,0Z"
+            style="fill:rgb(3,152,158);" />
         </svg>
       </div>
       <div id="LoginLogo">
@@ -11,17 +14,21 @@
       </div>
     </div>
     <div id="LoginForm">
-      <h1>Connexion</h1>
-      <div id="LoginInput">
-        <label>Email</label>
-        <input type="email" placeholder="email@xyz.fr">
-        <label>Mot de passe</label>
-        <input type="password" placeholder="Mot de passe">
-      </div>
-      <div id="LoginButton">
-        <button>Inscription</button>
-        <button>Se connecter</button>
-      </div>
+      <form name="form" (ngSubmit)="login()" #f="ngForm">
+        <h1>Connexion</h1>
+        <div id="LoginInput">
+          <label>Email</label>
+          <!-- <input type="email" placeholder="email@xyz.fr"> -->
+          <input type="text" name="username" [(ngModel)]="model.username" #username="ngModel" required />
+          <label>Mot de passe</label>
+          <!-- <input type="password" placeholder="Mot de passe"> -->
+          <input type="password" name="password" [(ngModel)]="model.password" #password="ngModel" required />
+        </div>
+        <div id="LoginButton">
+          <button>Inscription</button>
+          <button>Se connecter</button>
+        </div>
+      </form>
     </div>
   </div>
   <div id="LoginImage">
