@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module'; 
 
 import { AppComponent } from './app.component';
 import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
@@ -13,6 +14,9 @@ import {AvatarModule} from "primeng/avatar";
 import {BadgeModule} from "primeng/badge";
 import {InputTextModule} from "primeng/inputtext";
 import { LoginFormComponent } from './login-form/login-form.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RessourcesComponent } from './ressources/ressources.component';
+import { ParametersComponent } from './parameters/parameters.component';
 
 
 
@@ -20,7 +24,11 @@ import { LoginFormComponent } from './login-form/login-form.component';
   declarations: [
     AppComponent,
     LeftSideBarComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    LeftSideBarComponent,
+    ProfileComponent,
+    RessourcesComponent,
+    ParametersComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +40,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
     AvatarModule,
     BadgeModule,
     InputTextModule,
+    AppRoutingModule
 
   ],
   providers: [],
