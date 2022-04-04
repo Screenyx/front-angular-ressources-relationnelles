@@ -18,6 +18,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { RessourcesComponent } from './ressources/ressources.component';
 import { ParametersComponent } from './parameters/parameters.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RegisterFormComponent } from './register-form/register-form.component';
 
 
 
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     LeftSideBarComponent,
     ProfileComponent,
     RessourcesComponent,
-    ParametersComponent
+    ParametersComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,
