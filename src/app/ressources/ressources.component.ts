@@ -14,7 +14,7 @@ export class RessourcesComponent implements OnInit {
   ngOnInit(): void {
     this.ressourceService.getRessources().subscribe(value => {
       console.log(value);
-    })
+    });
   }
 
 }
