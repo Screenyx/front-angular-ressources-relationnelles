@@ -17,6 +17,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RessourcesComponent } from './ressources/ressources.component';
 import { ParametersComponent } from './parameters/parameters.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -40,7 +41,9 @@ import { ParametersComponent } from './parameters/parameters.component';
     AvatarModule,
     BadgeModule,
     InputTextModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    HttpClientModule,
 
   ],
   providers: [],

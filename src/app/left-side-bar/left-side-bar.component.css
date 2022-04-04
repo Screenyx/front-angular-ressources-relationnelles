@@ -139,5 +139,10 @@ a:link
   }
 }
 
+.nav-item-container a{
+  cursor: pointer;
+}
 
-
+.nav-item-container img{
+  cursor: pointer;
+}
