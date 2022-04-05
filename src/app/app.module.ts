@@ -21,6 +21,9 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RequestInterceptor } from './request.interceptor';
 import { LoginFormService } from './login-form/login-form.service';
+import { RegisterFormComponent } from './register-form/register-form.component';
+import { HomeComponent } from './home/home.component';
+
 
 
 
@@ -32,7 +35,9 @@ import { LoginFormService } from './login-form/login-form.service';
     LeftSideBarComponent,
     ProfileComponent,
     RessourcesComponent,
-    ParametersComponent
+    ParametersComponent,
+    RegisterFormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

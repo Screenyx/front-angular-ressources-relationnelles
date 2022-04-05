@@ -7,14 +7,16 @@ import { ProfileComponent } from './profile/profile.component';
 import { RessourcesComponent } from './ressources/ressources.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { AuthentificationGuard } from './authentification.guard';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-    { path: 'login', component: LoginFormComponent},
-    { path: '',canActivate:[AuthentificationGuard], component: ProfileComponent }, //Temporary needs to replace ProfileComponent with home component
-    { path: 'profil',canActivate:[AuthentificationGuard], component: ProfileComponent },
-    { path: 'ressources',canActivate:[AuthentificationGuard], component: RessourcesComponent },
-    { path: 'parametres',canActivate:[AuthentificationGuard], component: ParametersComponent},
-    { path: '**', redirectTo: '' }
+  { path: '',canActivate:[AuthentificationGuard], component: HomeComponent },
+  { path: 'login', component: LoginFormComponent},
+  { path: 'home',canActivate:[AuthentificationGuard], component: HomeComponent },
+  { path: 'profil',canActivate:[AuthentificationGuard], component: ProfileComponent },
+  { path: 'ressources',canActivate:[AuthentificationGuard], component: RessourcesComponent },
+  { path: 'parametres',canActivate:[AuthentificationGuard], component: ParametersComponent},
+  { path: '**', redirectTo: '/home' }
 ];
 
 @NgModule({
