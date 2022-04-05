@@ -12,7 +12,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'profil', component: ProfileComponent },
   { path: 'ressources', component: RessourcesComponent },
-  { path: 'parametres', component: ParametersComponent}
+  { path: 'parametres', component: ParametersComponent},
+  { path: '**', redirectTo: '/home'}
 ];
 export const AppRoutingModule = RouterModule.forRoot(appRoutes);
  

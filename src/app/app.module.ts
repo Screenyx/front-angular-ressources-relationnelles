@@ -33,7 +33,7 @@ import { HomeComponent } from './home/home.component';
     ProfileComponent,
     RessourcesComponent,
     ParametersComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
     HomeComponent
   ],
   imports: [

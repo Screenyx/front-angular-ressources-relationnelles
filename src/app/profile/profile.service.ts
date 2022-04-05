@@ -6,7 +6,7 @@ import { UserDTO } from './user.DTO';
 export class ProfileService {
   
   constructor(private http: HttpClient) { }
-  apiUrl = 'http://localhost:8080/';
+  apiUrl = 'http://82.66.95.197:8080/api/';
 
   getUsers(){
     return this.http.get<UserDTO[]>(this.apiUrl+'users');

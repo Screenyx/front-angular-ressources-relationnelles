@@ -1,5 +1,5 @@
 <div *ngIf="usersExist==true">
     <p >Il y a {{usersList.length}} profils</p>
-    <p *ngFor="let profil of usersList">{{profil.fullName}} </p>
+    <p *ngFor="let profil of usersList"> {{profil.fullName}} </p>
 </div>
 <p *ngIf="usersExist==false">Il n'y a pas de profils :(</p>
