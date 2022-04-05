@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 export class LoginFormService {
 
 
-  apiUrl = 'http://82.66.95.197:8080/api/';
+  apiUrl = 'http://82.66.95.197:8080/';
 
   constructor(private http: HttpClient) {
     //this.apiUrl = 'http://localhost:8080/';
