@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { LoginFormService } from './login-form.service';
 
 @Component({
   selector: 'app-login-form',
@@ -14,18 +15,16 @@ export class LoginFormComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private http: HttpClient
+    private http: HttpClient,
+    private loginService: LoginFormService
   ) { }
 
   ngOnInit(): void {
   }
 
   login() {
-    let url = '/api/login';
-    this.http.post<any>(url, {
-      username: this.model.username,
-      password: this.model.password
-    }).subscribe(res => {
+    console.log("model :  ", this.model)
+    this.loginService.login(this.model.username, this.model.password).subscribe(res => {
       if (res) {
         this.sessionId = res.sessionId;
 

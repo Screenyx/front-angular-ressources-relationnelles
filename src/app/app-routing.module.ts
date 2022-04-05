@@ -6,16 +6,22 @@ import { ParametersComponent } from './parameters/parameters.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RessourcesComponent } from './ressources/ressources.component';
 import { LoginFormComponent } from './login-form/login-form.component';
-import { AuthenticationGuard } from './authentification.guard';
+import { AuthentificationGuard } from './authentification.guard';
 
-const appRoutes: Routes = [
-  { path: '', canActivate:[AuthenticationGuard], children: [
-    { path: '', redirectTo: 'accueil', pathMatch: 'full'},
-    { path: 'profil', component: ProfileComponent },
-    { path: 'ressources', component: RessourcesComponent },
-    { path: 'parametres', component: ParametersComponent},
-    { path: 'login' , component: LoginFormComponent}
-  ]}
+const routes: Routes = [
+    { path: 'login', component: LoginFormComponent},
+    { path: '',canActivate:[AuthentificationGuard], component: ProfileComponent }, //Temporary needs to replace ProfileComponent with home component
+    { path: 'profil',canActivate:[AuthentificationGuard], component: ProfileComponent },
+    { path: 'ressources',canActivate:[AuthentificationGuard], component: RessourcesComponent },
+    { path: 'parametres',canActivate:[AuthentificationGuard], component: ParametersComponent},
+    { path: '**', redirectTo: '' }
 ];
-export const AppRoutingModule = RouterModule.forRoot(appRoutes);
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+
+// export const AppRoutingModule = RouterModule.forRoot(appRoutes);
  

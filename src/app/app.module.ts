@@ -20,6 +20,7 @@ import { ParametersComponent } from './parameters/parameters.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RequestInterceptor } from './request.interceptor';
+import { LoginFormService } from './login-form/login-form.service';
 
 
 
@@ -48,7 +49,9 @@ import { RequestInterceptor } from './request.interceptor';
     HttpClientModule,
     FormsModule
   ],
-  providers: [{ provide: HTTP_INTERCEPTORS, useClass: RequestInterceptor, multi: true }],
+  
+  providers: [{ provide: HTTP_INTERCEPTORS, useClass: RequestInterceptor, multi: true },
+              { provide: LoginFormService}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
