@@ -19,6 +19,8 @@ import { RessourcesComponent } from './ressources/ressources.component';
 import { ParametersComponent } from './parameters/parameters.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterFormComponent } from './register-form/register-form.component';
+import { HomeComponent } from './home/home.component';
+
 
 
 
@@ -32,6 +34,7 @@ import { RegisterFormComponent } from './register-form/register-form.component';
     RessourcesComponent,
     ParametersComponent,
     RegisterFormComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
