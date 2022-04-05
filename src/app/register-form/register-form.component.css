@@ -1,0 +1,181 @@
+#RegisterContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#RegisterMenu{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow:
+    0.5px 0px 1.6px rgba(0, 0, 0, 0.02),
+    1.1px 0px 3.8px rgba(0, 0, 0, 0.028),
+    2.1px 0px 7.1px rgba(0, 0, 0, 0.035),
+    3.8px 0px 12.7px rgba(0, 0, 0, 0.042),
+    7.1px 0px 23.8px rgba(0, 0, 0, 0.05),
+    17px 0px 57px rgba(0, 0, 0, 0.07)
+;
+}
+
+#RegisterHeader{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.RegisterForm{
+  /*padding: 0 75px;*/
+  z-index: 999;
+}
+
+.RegisterInputContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+}
+
+.RegisterInputContainer >div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+
+}
+.RegisterInputContainer >div>input {
+
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+
+}
+
+.RegisterInputContainer label{
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding-left: 3px;
+}
+
+#RegisterStyle{
+  width: 70%;
+
+}
+
+#RegisterStyle svg{
+  width: 450px;
+  filter: drop-shadow(-0.5px 0px 1.6px rgba(0, 0, 0, 0.02)) drop-shadow(-1.1px 0px 3.8px rgba(0, 0, 0, 0.028)) drop-shadow(-2.1px 0px 7.1px rgba(0, 0, 0, 0.035)) drop-shadow(-3.8px 0px 12.7px rgba(0, 0, 0, 0.042)) drop-shadow(-7.1px 0px 23.8px rgba(0, 0, 0, 0.05)) drop-shadow(-17px 0px 57px rgba(0, 0, 0, 0.07))
+;
+
+}
+
+#RegisterLogo{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 350px;
+}
+
+#RegisterLogo img{
+  width: 150px;
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+  user-select: none; /* Propriété standard */
+
+}
+
+#RegisterImage{
+  width: 50%;
+  height: 100%;
+  background-color:rgb(3, 152, 158);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#RegisterImage img{
+  width: 75%;
+  margin-top:45px;
+  margin-bottom: 25px;
+  -moz-user-select: none; /* Firefox */
+  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+  user-select: none; /* Propriété standard */
+}
+
+#RegisterImage h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+
+
+.prenom {
+  grid-area: 1 / 1 / 2 / 2;
+
+
+}
+
+.nom {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.birthday {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.city {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.address {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.email {
+  grid-area: 4 / 1 / 5 / 3;
+}
+
+.password {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.repassword {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+#RegisterButton{
+  background-color: rgb(3, 152, 158);
+  width: 96%;
+  border: none;
+  padding : 5px 15px;
+  margin: 15px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.2rem;
+  float:right;
+
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+}
