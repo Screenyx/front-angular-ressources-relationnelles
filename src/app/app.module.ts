@@ -17,7 +17,10 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RessourcesComponent } from './ressources/ressources.component';
 import { ParametersComponent } from './parameters/parameters.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { RequestInterceptor } from './request.interceptor';
+import { LoginFormService } from './login-form/login-form.service';
 import { RegisterFormComponent } from './register-form/register-form.component';
 import { HomeComponent } from './home/home.component';
 
@@ -49,9 +52,11 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-
+    FormsModule
   ],
-  providers: [],
+  
+  providers: [{ provide: HTTP_INTERCEPTORS, useClass: RequestInterceptor, multi: true },
+              { provide: LoginFormService}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
