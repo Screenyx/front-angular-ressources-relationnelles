@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 export class RessourcesService {
 
   constructor(private http: HttpClient) { }
-  apiUrl = 'http://localhost:8080/';
+  apiUrl = 'http://82.66.95.197:8080/api/';
 
   getRessources(){
     return this.http.get<any>(this.apiUrl+'resources');
